@@ -1,0 +1,28 @@
+.demo-section {
+  background-color: var(--color-background-2);
+  padding: 100px 0;
+  .demo-section--container {
+  }
+}
+
+.demo-sectiontile {
+  display: grid;
+  align-items: center;
+  @media (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+  }
+  @media (max-width: 767px) {
+    grid-template-rows: auto auto;
+    row-gap: 20px;
+  }
+
+  .demo-sectiontile--illustration {
+    img {
+      width: 100%;
+    }
+  }
+
+  .demo-sectiontile--content {
+  }
+}
