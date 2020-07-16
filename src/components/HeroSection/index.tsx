@@ -22,7 +22,7 @@ export default function HeroSection() {
             />
             <img
               className="mobile-only"
-              src={heroMobileIllustration}
+              src={heroDesktopIllustration}
               alt="Secure identity"
             />
           </div>

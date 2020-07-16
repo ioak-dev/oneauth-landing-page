@@ -1,6 +1,15 @@
 .key-section {
   background-color: var(--color-primary-1);
   color: var(--color-background-1);
+
+  ::-moz-selection {
+    background: var(--color-background-1);
+    color: var(--color-foreground-1);
+  }
+  ::selection {
+    background: var(--color-background-1);
+    color: var(--color-foreground-1);
+  }
   // margin: 50px 0;
   padding: 100px 0;
   .key-section--container {
