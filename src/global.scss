@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto|Montserrat|Open+Sans|Open+Sans+Condensed:300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitter&family=Roboto&family=Source+Sans+Pro&display=swap");
 @import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
 
 * {
@@ -37,7 +36,7 @@
   margin: 0;
   padding: 0;
   line-height: normal;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   word-break: break-word;
 
   .space-bottom-1 {

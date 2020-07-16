@@ -36,10 +36,11 @@
         align-content: center;
         row-gap: 20px;
 
-        // .hero-section--container--cta {
-        //   display: flex;
-        //   justify-content: center;
-        // }
+        .hero-section--container--cta {
+          padding-top: 20px;
+          //   display: flex;
+          //   justify-content: center;
+        }
       }
     }
   }
