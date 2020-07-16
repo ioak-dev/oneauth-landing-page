@@ -1,10 +1,11 @@
 import React from "react"
 import "./style.scss"
+import KeyPoints from "./KeyPoints"
 
 interface Props {
   data: {
     title: string
-    description: string
+    points: string[]
     illustration: any
     alignAlt: boolean
   }
@@ -23,8 +24,8 @@ export default function SectionTile(props: Props) {
         <img src={require(`../../assets/${props.data.illustration}`)} />
       </div>
       <div className="feature-sectiontile--content">
-        <h2 className="heading--2">{props.data.title}</h2>
-        <p className="heading--3">{props.data.description}</p>
+        <h2 className="heading--2 space-bottom-1">{props.data.title}</h2>
+        <KeyPoints data={props.data.points} />
       </div>
       {props.data.alignAlt && (
         <div className="feature-sectiontile--illustration desktop-only">

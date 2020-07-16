@@ -33,6 +33,21 @@
   .feature-sectiontile--content {
     display: grid;
     grid-auto-flow: row;
-    row-gap: 16px;
+  }
+}
+
+.feature-keypoints {
+  display: grid;
+  grid-auto-flow: row;
+  row-gap: 20px;
+  .feature-keypoints--point {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 12px;
+    i {
+      color: var(--color-primary-1);
+    }
   }
 }

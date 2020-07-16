@@ -11,10 +11,10 @@ interface Props {
 
 export default function SectionTile(props: Props) {
   return (
-    <div className="sectiontile">
+    <div className="key-sectiontile">
       <i className={props.data.faIcon} />
-      <h3 className="heading--3">{props.data.title}</h3>
-      <p>{props.data.description}</p>
+      <h2 className="heading--2 key-sectiontile--title">{props.data.title}</h2>
+      <p className="heading--3">{props.data.description}</p>
     </div>
   )
 }

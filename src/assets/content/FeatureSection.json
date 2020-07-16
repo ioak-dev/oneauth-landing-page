@@ -4,19 +4,27 @@
       "illustration": "illustration/oneaccount.svg",
       "title": "One account for all apps",
       "alignAlt": true,
-      "description": "One user account that will let the users connect to all applications on your organization. Supports single sign on (SSO), so that user don't have to re-enter sign-in information on every application. When a user signs out from one application, session is invalidated for all other applications."
+      "points": [
+        "One user account that will let the users connect to all applications on your organization. Supports single sign on (SSO), so that user don't have to re-enter sign-in information on every application. When a user signs out from one application, session is invalidated for all other applications."
+      ]
     },
     {
       "illustration": "illustration/feature_social.svg",
       "title": "Sign in using social identity",
       "alignAlt": false,
-      "description": "Users can sign in via external social identity providers such as Google, Outlook and Facebook. For your space (aka organization), you can choose which identity providers you would like your users to use, in addition to native Oneauth identity."
+      "points": [
+        "Supported external identity providers - Outlook, Google, Facebook",
+        "Choose which external identity providers you would like your company members to use",
+        "You can limit the sign in only to native oneauth method"
+      ]
     },
     {
       "illustration": "illustration/customize_login_page.svg",
       "title": "Customizable Sign in page",
       "alignAlt": true,
-      "description": "You can customize your company branding information. You can choose between two sign-in page layouts and choose your own brand specific logo and background. In addition, you can write your own sign-in page for the UX and connect with our REST API for authentication services in the backend."
+      "points": [
+        "You can customize your company branding information. You can choose between two sign-in page layouts and choose your own brand specific logo and background. In addition, you can write your own sign-in page for the UX and connect with our REST API for authentication services in the backend."
+      ]
     }
   ]
 }

@@ -11,13 +11,16 @@
     color: var(--color-foreground-1);
   }
   // margin: 50px 0;
-  padding: 100px 0;
+  padding: 100px 100px;
+  @media (max-width: 767px) {
+    padding: 100px 0;
+  }
   .key-section--container {
     display: grid;
     justify-content: center;
     @media (min-width: 768px) {
       grid-template-columns: 1fr 1fr 1fr;
-      column-gap: 20px;
+      column-gap: 60px;
     }
     @media (max-width: 767px) {
       grid-auto-flow: row;
@@ -28,17 +31,21 @@
     }
 
     i {
-      font-size: 2em;
+      font-size: 2.5em;
       // color: var(--color-primary-1);
     }
   }
 }
 
-.sectiontile {
+.key-sectiontile {
   display: grid;
   grid-auto-flow: row;
   align-content: flex-start;
   row-gap: 10px;
+
+  .key-sectiontile--title {
+    padding-bottom: 10px;
+  }
 
   svg {
     color: var(--color-primary-1);

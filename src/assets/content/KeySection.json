@@ -1,19 +1,19 @@
 {
   "data": [
     {
-      "faIcon": "fas fa-palette",
-      "title": "One account for all apps",
-      "description": "One user account that will let the users connect to all applications on your organization. Supports single sign on (SSO), so that user don't have to re-enter sign-in information on every application. When a user signs out from one application, session is invalidated for all other applications."
+      "faIcon": "fas fa-shield-alt",
+      "title": "Secure solution",
+      "description": "Built with security as the primary requirement. Supports 2FA. Set minimum passphrase requirement, password expiry and session time out frequency."
     },
     {
       "faIcon": "fas fa-hand-holding-usd",
       "title": "Free and open source",
-      "description": "Oneauth is free for both personal and commercial purposes. TBD."
+      "description": "Oneauth is free for both personal and commercial purposes. You get access to all advanced capabilities that you would expect from an identity provider."
     },
     {
-      "faIcon": "fab fa-superpowers",
-      "title": "TBD",
-      "description": "Logically group tasks with the power of custom checklist groups against a task. Choose between story points or time estimates to plan and track project deliverables. Create your workflow unique for each project."
+      "faIcon": "fas fa-cogs",
+      "title": "Easy configuration",
+      "description": "Manage your applications and space with the easy to use admin page. Create, configure and connect your space with apps from one place."
     }
   ]
 }
