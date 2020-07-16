@@ -1,5 +1,5 @@
 .demo-section {
-  background-color: var(--color-background-2);
+  background-color: var(--color-background-1);
   padding: 100px 0;
   .demo-section--container {
   }
@@ -28,5 +28,9 @@
   }
 
   .demo-sectiontile--content {
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 10px;
+    justify-items: flex-start;
   }
 }

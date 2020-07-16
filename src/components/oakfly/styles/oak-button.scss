@@ -18,6 +18,7 @@ button {
       height: var(--metric-formelement-height);
       line-height: var(--metric-formelement-height);
       white-space: nowrap;
+      font-size: 16px;
       @media (max-width: 767px) {
         height: var(--metric-formelement-height-mobile);
         line-height: var(--metric-formelement-height-mobile);

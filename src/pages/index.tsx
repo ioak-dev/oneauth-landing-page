@@ -22,9 +22,9 @@ const IndexPage = () => (
     <HeroSection />
     <KeySection />
     <FeatureSection />
+    <OnboardSection />
     <DemoSection />
-    {/* <OnboardSection />
-    <ContactSection />
+    {/* <ContactSection />
     <FaqSection /> */}
     <FooterSection />
     <CopyrightSection />

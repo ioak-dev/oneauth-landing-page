@@ -13,7 +13,7 @@
     {
       "faIcon": "fas fa-cogs",
       "title": "Easy configuration",
-      "description": "Manage your applications and space with the easy to use admin page. Create, configure and connect your space with apps from one place."
+      "description": "Create, configure and connect your space with apps from one place. With a REST API endpoint, integration procedure is universal across any platform and framework."
     }
   ]
 }

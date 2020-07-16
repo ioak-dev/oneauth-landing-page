@@ -5,7 +5,9 @@
       "title": "One account for all apps",
       "alignAlt": true,
       "points": [
-        "One user account that will let the users connect to all applications on your organization. Supports single sign on (SSO), so that user don't have to re-enter sign-in information on every application. When a user signs out from one application, session is invalidated for all other applications."
+        "One user account that will let the users connect to all applications on your organization",
+        "Supports single sign on (SSO), so that user don't have to re-enter sign-in information on every application",
+        "When a user signs out from one application, session is invalidated for all other applications."
       ]
     },
     {
@@ -23,7 +25,30 @@
       "title": "Customizable Sign in page",
       "alignAlt": true,
       "points": [
-        "You can customize your company branding information. You can choose between two sign-in page layouts and choose your own brand specific logo and background. In addition, you can write your own sign-in page for the UX and connect with our REST API for authentication services in the backend."
+        "Customize with your brand logo and background",
+        "Choose from two layouts for sign-in page",
+        "Extend further and write your own sign-in page frontend. Our REST API allows you to seemlessly integrate, your custom front page with Oneauth's secure backend"
+      ]
+    },
+    {
+      "illustration": "illustration/restricted_apps.svg",
+      "title": "Distribute apps as restricted or free",
+      "alignAlt": false,
+      "points": [
+        "As an application creator, you can choose to publish the app as free or restricted",
+        "When you mark as application as free, it is accessible to all companies having thier space in Oneauth",
+        "Restricted applications need to grant explicit permissions to a company space (for use by that company)",
+        "You can publish a paid/cloud subscription application and selectively grant access to companies that paid for the subscription"
+      ]
+    },
+    {
+      "illustration": "illustration/2fa.svg",
+      "title": "Two factor authentication (2FA) - Coming soon",
+      "alignAlt": true,
+      "points": [
+        "Increase your security level significantly using two factor authentication",
+        "Supports OTP over mobile SMS. Less secure compared to time based codes",
+        "Supports time based security codes using Google authenticator or Authy"
       ]
     }
   ]
