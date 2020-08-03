@@ -1,6 +1,7 @@
 import React from "react"
 import "./style.scss"
 import KeyPoints from "./KeyPoints"
+import OakAnimateElement from "../oakfly/OakAnimateElement"
 
 interface Props {
   data: {
@@ -16,20 +17,30 @@ export default function SectionTile(props: Props) {
     <div className="feature-sectiontile">
       {!props.data.alignAlt && (
         <div className="feature-sectiontile--illustration desktop-only">
-          <img src={require(`../../assets/${props.data.illustration}`)} />
+          <OakAnimateElement direction="right">
+            <img src={require(`../../assets/${props.data.illustration}`)} />
+          </OakAnimateElement>
         </div>
       )}
 
       <div className="feature-sectiontile--illustration mobile-only">
-        <img src={require(`../../assets/${props.data.illustration}`)} />
+        <OakAnimateElement>
+          <img src={require(`../../assets/${props.data.illustration}`)} />
+        </OakAnimateElement>
       </div>
       <div className="feature-sectiontile--content">
-        <h2 className="heading--2 space-bottom-1">{props.data.title}</h2>
-        <KeyPoints data={props.data.points} />
+        <OakAnimateElement>
+          <h2 className="heading--2 space-bottom-1">{props.data.title}</h2>
+        </OakAnimateElement>
+        <OakAnimateElement>
+          <KeyPoints data={props.data.points} />
+        </OakAnimateElement>
       </div>
       {props.data.alignAlt && (
         <div className="feature-sectiontile--illustration desktop-only">
-          <img src={require(`../../assets/${props.data.illustration}`)} />
+          <OakAnimateElement direction="left">
+            <img src={require(`../../assets/${props.data.illustration}`)} />
+          </OakAnimateElement>
         </div>
       )}
     </div>

@@ -7,6 +7,7 @@ import HeaderSection from "../HeaderSection"
 import CallToAction from "./CallToAction"
 import heroDesktopIllustration from "../../assets/illustration/hero_desktop.svg"
 import heroMobileIllustration from "../../assets/illustration/hero_mobile.svg"
+import OakAnimateElement from "../oakfly/OakAnimateElement"
 
 export default function HeroSection() {
   return (
@@ -15,23 +16,33 @@ export default function HeroSection() {
       <div className="hero-section">
         <div className="hero-section--container column-layout">
           <div className="hero-section--container--illustration">
-            <img
-              className="desktop-only"
-              src={heroDesktopIllustration}
-              alt="Secure identity"
-            />
-            <img
-              className="mobile-only"
-              src={heroDesktopIllustration}
-              alt="Secure identity"
-            />
+            <OakAnimateElement direction="right">
+              <img
+                className="desktop-only"
+                src={heroDesktopIllustration}
+                alt="Secure identity"
+              />
+            </OakAnimateElement>
+            <OakAnimateElement>
+              <img
+                className="mobile-only"
+                src={heroDesktopIllustration}
+                alt="Secure identity"
+              />
+            </OakAnimateElement>
           </div>
           <div className="hero-section--container--content">
-            <h1 className="heading--1">{content.title}</h1>
-            <p className="heading--3">{content.subtitle}</p>
-            <div className="hero-section--container--cta">
-              <CallToAction data={content.callToAction} />
-            </div>
+            <OakAnimateElement>
+              <h1 className="heading--1">{content.title}</h1>
+            </OakAnimateElement>
+            <OakAnimateElement>
+              <p className="heading--3">{content.subtitle}</p>
+            </OakAnimateElement>
+            <OakAnimateElement>
+              <div className="hero-section--container--cta">
+                <CallToAction data={content.callToAction} />
+              </div>
+            </OakAnimateElement>
           </div>
         </div>
       </div>
