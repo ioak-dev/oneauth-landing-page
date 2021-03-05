@@ -13,7 +13,7 @@ export default function CallToAction(props: Props) {
   return (
     <div className="call-to-action">
       <OakButton
-        action={() => (window.location.href = "https://oneauth.ioak.org")}
+        action={() => (window.location.href = "https://oneauth-app.ioak.io")}
         faIcon={props.data.faIcon}
         theme="primary"
         variant="regular"

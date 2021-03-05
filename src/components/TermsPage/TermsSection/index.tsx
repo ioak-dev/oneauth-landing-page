@@ -13,7 +13,7 @@ export default function TermsSection() {
 
         <p>
           These terms and conditions outline the rules and regulations for the
-          use of Oneauth's Website, located at https://oneauth.ioak.org.
+          use of Oneauth's Website, located at https://oneauth-app.ioak.io.
         </p>
 
         <p>
