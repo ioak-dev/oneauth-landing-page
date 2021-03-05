@@ -8,8 +8,8 @@ export default function PrivacySection() {
         <h1>Privacy Policy for Oneauth</h1>
 
         <p>
-          At Oneauth, accessible from https://oneauth-app.ioak.io, one of our
-          main priorities is the privacy of our visitors. This Privacy Policy
+          At Oneauth, accessible from https://oneauth.ioak.org, one of our main
+          priorities is the privacy of our visitors. This Privacy Policy
           document contains types of information that is collected and recorded
           by Oneauth and how we use it.
         </p>
