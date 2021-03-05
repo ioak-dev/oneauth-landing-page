@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://oneauth-app.ioak.io`,
+    siteUrl: `https://oneauth.ioak.org`,
     title: `Free collaborative Agile project management tool`,
     // description: `Whether you are a startup or an established business, Oneauth will enhance your agile project management workflow. Modern and sleek user interface with advanced capabilities to plan and execute your project efficiently. Supports Scrum and Kanban agile management processes. Unlimited number of projects and teams.`,
     // description: `Oneauth optimizes your agile project management workflow with Scrum or Kanban. Clean user interface with advanced capabilities to execute your project efficiently`,
